@@ -1,0 +1,9 @@
+a= []
+for x in range(100,3001):
+    i = format(x,'b')
+    i = i[1:]
+    c = int(i,2)
+    if x-c not in a:
+        a.append(x-c)
+print(len(a)) 
+#answer:6       

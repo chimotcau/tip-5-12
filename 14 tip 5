@@ -1,0 +1,13 @@
+for N in range (0,256):
+    s = format(N,'b')
+    if len(s)<8:
+        s= '0'*(8-len(s))+s
+    s= s.replace('1','2')
+    s= s.replace('0','1')
+    s= s.replace('2','0')
+    r= int(s,2)
+    if r-N==133:
+        print(N)
+        #answer:61
+
+
