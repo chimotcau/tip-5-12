@@ -6,7 +6,7 @@ for N in range (0,256):
     s= s.replace('0','1')
     s= s.replace('2','0')
     r= int(s,2)
-    if r-N==133:
+    if r-N==132:
         print(N)
         #answer:61
 

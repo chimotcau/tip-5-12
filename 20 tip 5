@@ -2,7 +2,7 @@ for n in range(100,0,-1):
     s = format(n,'b')
     s = s[::-1].lstrip('0')
     r = int(s,2)
-    if r == 13:
+    if r == 14:
         print(n)
         break
     #answer:88

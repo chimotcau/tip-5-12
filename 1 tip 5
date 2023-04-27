@@ -1,4 +1,4 @@
-for n in range(1,1000):
+for n in range(1,1001):
     s = format(n, 'b')
     s = s + str(s.count('1')%2)
     s = s + str(s.count('1')%2)

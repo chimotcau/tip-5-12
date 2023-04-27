@@ -1,4 +1,4 @@
-a = 68*'8'
+a = 67*'8'
 while ('222'in a) or ('888'in a):
     if ('222') in a:
         a = a.replace('222','8',1)

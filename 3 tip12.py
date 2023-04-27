@@ -1,4 +1,4 @@
-a ='1' + 80*'8'
+a ='1' + 81*'8'
 while('18' in a) or ('288' in a) or ('3888' in a):
     if '18' in a:
         a= a.replace('18','2',1)

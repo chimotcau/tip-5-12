@@ -1,5 +1,5 @@
 a = []
-for x in range(10, 1001):
+for x in range(10, 1002):
     i=format(x,'b')
     i= i[1:]
     b = int(i,2)
